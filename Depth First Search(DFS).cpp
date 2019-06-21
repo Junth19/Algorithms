@@ -1,15 +1,10 @@
 // Author : Junth Basnet
-// Connected Components using Depth First Search
+// Implementation of Depth First Search
 // Time Complexity : O(m + n)
 
 /*
-Defination:
-The vertices of a graph G can be partitioned into Connected Components so that v is
-reachable from w if and only if they are in the same connected component.
-
 Input: Graph G
-Output: The connected components of G
-
+Output: The order in which the nodes(vertices) are traversed
 */
 
 /*
@@ -26,9 +21,8 @@ Input:
 4 6
 5 7
 8 9
-
 Output:
-Connected Components: 2
+0 1 5 2 7 3 6 4 8 9
 */
 
 #include<iostream>
@@ -78,9 +72,6 @@ int main()
 			DepthFirstSearch(i);
 		}
 	}
-
-	cout << "Connected Components: " << cc;
-
-
+	
 	return 0;
 }
