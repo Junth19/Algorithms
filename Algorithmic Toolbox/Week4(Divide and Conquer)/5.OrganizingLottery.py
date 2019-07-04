@@ -1,5 +1,5 @@
 # Author : Junth Basnet
-# Time Complexity : O(n)
+# Time Complexity : O(nlogn) : Sorting takes O(nlogn) time
 
 """
 Sample1:
